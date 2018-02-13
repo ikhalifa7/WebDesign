@@ -1,0 +1,128 @@
+
+
+body {
+  background-color: #472d30;
+	color: #ffe1a8;
+	margin: 0;
+}
+
+/* MAIN CONTENT */
+
+.content-wrap{
+	margin: 0% 20% 0 20%;
+	text-align: justify;
+	overflow: hidden;
+	background-color: #6d6466;
+}
+
+
+
+/*HEADER FOR STUDENT DIV -- Icones next to name(h1 title) */
+
+.student_icone {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+
+}
+
+ h1 {
+	text-align: center;
+
+}
+
+.right-wrap {
+	padding: 0px 15px 15px 15px;
+}
+
+.left-wrap {
+	float: left;
+	padding: 50px 10px 20px 10px;
+
+}
+/* READ BUTTON -- */
+
+.read-btn {
+ color: #ffe1a8;
+ background: #e26d5c;
+ padding: 10px 25px;
+ margin: 0 30% 0 50%;
+ font-family: 'OpenSansBold', sans-serif;
+ font-size: 14px;
+ font-weight: bold;
+ display: inline-block;
+ text-align: center;
+ cursor: pointer;
+ box-shadow: inset 0 0 0 0 #31302B;
+ transition: all ease 1s;
+ text-decoration: none;
+}
+
+.read-btn:hover {
+    box-shadow: inset 140px 0 0 0 #3f4739;
+}
+
+
+/* ICONE ID -- CHANGE POSITIONNING THROUGH SPECIFIC ICONE */
+#apple {
+	background-color: aquamarine;
+}
+
+#orange {
+	background-color: aquamarine;
+}
+
+#strwb {
+	background-color: aquamarine;
+}
+
+#cherry {
+	background-color: aquamarine;
+}
+
+#container-end {
+	width: 100%;
+}
+
+
+/* MENU CSS */
+
+
+nav{
+  background-color: #393e41;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu-wrapper{
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li{
+  display: inline-block;
+  width: 155px;
+}
+
+nav ul li a{
+  display: block;
+  padding: 15px;
+  color: #ffe1a8;
+  text-decoration: none;
+    transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover{
+  color: #F46F4F;
+}
