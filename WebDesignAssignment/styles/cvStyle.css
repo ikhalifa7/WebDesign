@@ -1,0 +1,27 @@
+body{
+	
+	padding-left:150px;
+	width: 75%;
+	display: block;
+	border: thin;
+}
+
+h2{
+	
+	text-align: center;
+}
+
+#myName{
+	
+	text-align: center; }
+
+	
+#cvImage{
+	
+	height: 150px;
+	width: 150px;
+	margin-left: 41%;
+	margin-right: 50%;
+	border-style: solid ;
+	
+}

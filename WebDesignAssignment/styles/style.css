@@ -1,0 +1,279 @@
+/**This css file is responsible for formatting things that are common to all pages. Eg footer, navigation bar, links**/
+
+/* -------------------------------------Navigation bar starts------------------------------------------------------------------- */
+
+/* Add a black background colour to the navigation  bar*/
+.topnav {
+	
+    background-color: #ff8080;
+    overflow: hidden;
+    height:50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	
+	height:25px;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+/* Change the colour of links on hover */
+.topnav a:hover {
+	
+    background-color: #661400;
+    color: #595959;
+}
+
+/* Add a colour to the active/current link */
+.topnav a.active {
+    background-color: #ff0080;
+    color: white;
+}
+
+
+
+
+/* -------------------------------------Effect for news links------------------------------------------------------------ */
+a {
+	
+	text-decoration: none;	
+}
+
+.row a:hover{
+	
+	text-decoration: underline;
+	color: blue;
+	
+	
+}
+
+
+a:hover{
+	
+	text-decoration: underline;
+	color: blue;
+	
+	
+}
+.row h3{
+	
+	color: #ff0080;
+}
+
+
+
+
+#anchor{
+	
+  margin-left: 329px;
+}
+
+
+/* -------------------------------------First row of each column to the left------------------------------------------------------------------- */
+
+/* The first column of all rows must have a margin of zero. This will push them to left of our  */
+
+.seven:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.eight:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.nine:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.ten:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.eleven:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.five:first-child{ 
+	
+	margin-left: 0;
+}
+
+.four:first-child{ 
+	
+	margin-left: 0; 
+}
+.three:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.two:first-child{ 
+	
+	margin-left: 0; 
+	
+}
+
+.one:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.six:first-child{ 
+	
+	margin-left: 0; 
+}
+
+/* -------------------------------------End of first columns------------------------------------------------------------------- */
+
+
+/* -------------------------------------Image size for different grid sizes---------------------------------------------------- */
+
+
+.six img{
+	
+	height: 200px;
+	width:100%;
+	border-style:solid;
+	border-color: #ff8080;
+  	background: url(image1.jpg) no-repeat center center fixed; 
+  	
+}
+
+.three img{
+	
+	height: 200px;
+	width:98%;
+	border-style:solid;
+	border-color: #ff8080;
+  	background: url(image1.jpg) no-repeat center center fixed; 
+  	
+}
+
+.largeHeading{
+	
+	text-align: center;
+	color: #ff0080;
+
+}
+
+
+/* -------------------------------------Determination of grid sizes------------------------------------------------------------------- */
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+.eight {
+	width: 66%;
+	float: left;
+	margin-left: 2%;
+}
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+.six {
+	width: 48.5%; /* This div spans six columns (the entire row)*/
+	float: left;
+	margin-left: 2%;
+}
+.five {
+	width: 40.5%; /* This div spans five columns */
+	margin-left: 2%;
+	float:left;
+}
+.four {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+.three {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+
+}
+.one {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+
+
+header {
+	
+	height: 73px;
+	background-color: #d13328;
+}
+
+/* -------------------------------------Footer starts------------------------------------------------------------------- */
+
+footer {
+	
+	margin-top: 10px;
+	height: 100px;
+	background-color: #ff8080;
+	padding: 30px 5px 5px 5px;
+	font-size: 10px;
+	text-align:  center;
+	margin-bottom: 15px;
+	
+	
+}
+
+footer a:hover{
+	
+	text-decoration: underline;
+	color: blue;
+	
+}
+
+
+
+/* -------------------------------------Container starts------------------------------------------------------------------- */
+
+/* This is the div that will be used to hold all contents of the site */
+.container {
+	
+	
+	margin-right: auto;
+	margin-left: auto; 
+	width: 1000px; 
+}
+
+
+
+

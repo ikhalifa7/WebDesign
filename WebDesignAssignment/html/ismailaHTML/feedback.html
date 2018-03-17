@@ -1,0 +1,113 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="../../styles/style.css">
+<link rel="stylesheet" type="text/css" href="../../styles/feedback.css">
+
+
+<script src="../../Javascript/javascriptForFeedbackForm.js" type="text/javascript"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+<script type="text/javascript">
+
+</script>
+
+
+	<div class="grid">
+
+		<div class=navigationBar>
+
+			<div class="topnav">
+
+				<a href="homepage.html">Home</a> 
+				<a href="../quiz.html">Quiz</a> 
+				<a href="../images.html"> Images</a> 
+				<a href="../shop.html">Shop</a>
+				<a href="experiments.html">Experiments</a>
+				<a class="active">Feedback</a> 
+				<a href="../about.html">About</a>
+
+			</div>
+
+	  </div>
+
+	
+	  <!-- This is the div that will contain all the contents between the navigation bar and the footer -->
+	  <div class=content>
+
+			
+			<!-- Content on the left side of the page. This will the the area of the form -->
+			<div class="formContent">
+				
+				<!-- Form starts here -->
+				<form class="container" action="">
+
+					<!-- Text fiellds -->
+					<input type="text" id="name" name="firstname" placeholder="Enter first name.."> 
+					<input type="text" id="lastName" name="lastName" placeholder="Enter surname..">
+					<input type="text" id="postCode" name="postcode" placeholder="Enter postcode.."> 
+					
+					<br>
+					<br>
+					
+					<!-- Drop down selection -->
+					<select id="rating" name="rating">
+
+						<option value="">Select Rating...</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+
+					</select>
+	
+					<!-- Text area for user to type in feedback -->
+					<textarea id="opinion" name="opinion" placeholder="Write your opinion here.." style="height: 200px"></textarea>
+					
+					<!-- Submit button -->
+					<input id="submitButton" onclick="submitData()" type="submit" value="Submit">
+
+				</form>
+				<!-- Form ends here -->
+
+
+			</div>
+
+			
+			
+			<br>
+
+
+		</div>
+		
+		
+		
+		<div class="row">
+			
+				<footer class="footerLinks">
+					
+					<p>Created by: Ismaila Khan</p>
+					
+  					<p> <a href="ismailaCV.html">View My CV </a> <p>
+  					
+					<p> Sitemap <p>		
+					
+				</footer>
+
+	</div>
+
+
+</body>
+
+
+
+</html>
