@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+ size=parseInt($('p').css('font-size'));
+
+
+    $("#big").on("click",function(){
+
+      size=size+2;
+       $("p").css("font-size",size + "px");
+    });
+    $("#normal").on("click",function(){
+      size=14;
+       $("p").css("font-size",size + "px");
+    });
+    $("#small").on("click",function(){
+      size=size-2;
+       $("p").css("font-size",size+ "px");
+    });

@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles/style.css">
+<link href="styles/shop-1.css" rel="stylesheet" type="text/css">
+
+
+<title>Merchandise</title>
+
+</head>
+
+<body>
+
+<div class="grid" id="main">
+
+		<div class="navigationBar">
+		
+			<div class="topnav">
+			
+				<a href="ismailaHTML/index.html">Home</a>
+				<a href = "quiz.html" >Quiz</a>  
+				<a href = "images.html" > Images</a> 
+				<a class="active" >Shop</a> 
+				<a href="ismailaHTML/feedback.html">Feedback</a> 
+				<a href="about.html">About</a>
+				
+			</div>
+
+		</div>
+		
+		
+		<div class="content">
+			<!--Main Content-->
+
+		
+			<!--Left Content-->	
+				
+
+
+<h1></h1>
+<div class="leftContent">
+<div class="product" id="product1">
+	<img src="Images/Ash-Backpack.jpg" class="thumbnail" alt="ash backpack" id="ashImg">
+	<div class ="description">
+		Ash Backpack
+		<div class="price">£19</div>
+	</div>
+</div>
+<div class="box"></div>
+<div class="product" id="product2">
+	<img src="Images/Khaki-Backpack.jpg" class="thumbnail" alt="khaki backpack" id="khakiImg">
+	<div class ="description">
+		Khaki Backpack
+		<div class="price">£19</div>
+	</div>	
+</div>
+<div class="product" id="product3">
+	<img src="Images/Olive-Backpack.jpg" class="thumbnail" alt="olive backpack" id="oliveImg">
+	<div class ="description">
+		Olive Backpack
+		<div class="price">£19</div>
+	</div>	
+</div>
+
+
+<form onReset="resetOrder()">
+<label for="merchandiseOptions">Merchandise Options</label>
+<select name="merchandiseOptions" id="merchandiseOptions" onChange="CheckOptions(this.form)">
+	<option value="PleaseSelect">Please Select</option>
+	<option value="Cap">Cap</option>
+	<option value="T-Shirt">T-Shirt</option>
+	<option value="Backpack">Backpack</option>
+</select>	
+
+Merchandise Colour:
+<input type="radio" name="colour" id="ash" value="ash" onChange="displayMerchandise(this.value)"><label for="ash">Ash</label>
+<input type="radio" name="colour" id="khaki" value="khaki" onChange="displayMerchandise(this.value)"><label for="khaki">Khaki</label>
+<input type="radio" name="colour" id="olive" value="olive" onChange="displayMerchandise(this.value)"><label for="olive">Olive</label>
+
+<input type="reset" value="Clear your Order">
+<input type="button" value="Place your Order">
+</form>
+</div>
+<div class="rightContent">Right Content
+<div class="labelorder">Your Order:
+	<div id="orderDescription"></div>
+	<div class="product" id="order"></div>
+</div>
+</div>
+			<!--<input type="button" value="increase" onClick="increase()">
+			<input type="button" value="decrease" onClick="decrease()">-->
+
+<!--<script src="FontSize.js">-->
+<script>
+function getRadioValue( radioArray ){
+	var i;
+	for (i=0; i < radioArray.length; i++){
+		if(radioArray[i].checked){
+			return radioArray[i].value;
+		}
+		
+		
+	}
+	return"";
+}
+function getSelectedValue( selectList ){
+	return selectList[ selectList.selectedIndex ].value;	
+}	
+function getSelectedText ( selectList ){
+	return selectList.options[ selectList.selectedIndex ].text;
+}
+function resetOrder() {	
+	document.getElementById( "order" ).innerHTML = "";
+	document.getElementById("ashImg").src = "Images/Ash-Backpack.jpg";
+	document.getElementById("khakiImg").src = "Images/Khaki-Backpack.jpg";
+	document.getElementById("oliveImg").src = "Images/Olive-Backpack.jpg";
+	
+}
+function displayMerchandise (Merchandise){
+	switch( Merchandise ){
+		case "ash":
+				document.getElementById( "order" ).innerHTML = document.getElementById( "product1" ).innerHTML;
+				break;
+		case "khaki":
+				document.getElementById( "order" ).innerHTML = document.getElementById( "product2" ).innerHTML;
+				break;
+		case "olive":
+				document.getElementById( "order" ).innerHTML = document.getElementById( "product3" ).innerHTML;
+				break;
+			default:
+				document.getElementById( "order" ).innerHTML = "";
+			
+	}
+	
+}	
+function CheckOptions(formRef){
+	var orderOption = getSelectedValue( formRef.merchandiseOptions );
+	var chosenMerchandise = getRadioValue( formRef.colour );
+	var ash_image= document.getElementById("ashImg");
+	var khaki_image= document.getElementById("khakiImg");
+	var olive_image= document.getElementById("oliveImg");
+	
+	if(orderOption.indexOf("Backpack") != -1) {
+		if (ash_image.src ="Images/Ash-Baseball.jpg" ){
+		ash_image.src="Images/Ash-Baseball.jpg";
+		khaki_image.src="Images/Khaki-Baseball.jpg";
+		olive_image.src="Images/Olive-Baseball.jpg";
+		}
+	}else{
+		if (ash_image.src = "Images/Ash-tShirt.jpg"){
+		ash_image.src = "Images/Ash-tShirt.jpg";
+		khaki_image.src = "Images/Khaki-tShirt.jpg";
+		olive_image.src = "Images/Olive-tShirt.jpg";
+		}
+	
+	}
+	displayMerchandise (chosenMerchandise);
+}
+
+
+</script>	
+	
+
+
+
+
+<!--<img src="SVG/fontsizebuttons.svg">-->
+			
+	</div>
+	</div>	
+</body>
+</html>
