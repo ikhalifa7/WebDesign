@@ -5,14 +5,19 @@
 /* Add a black background colour to the navigation  bar*/
 .topnav {
 	
+	
     background-color: #ff8080;
     overflow: hidden;
     height:50px;
+	
+	
+	
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
 	
+	font-family: sans-serif;
 	height:25px;
     float: left;
     text-align: center;
@@ -36,13 +41,95 @@
     color: white;
 }
 
+/* -------------------------------------Navigation bar by Max starts------------------------------------------------------------------- */
+nav {
+	
+	display: grid;
+	grid-template-columns: 32.5% 45% 22.5%;
+	grid-template-rows: auto;
+
+}
+
+
+.item {
+	
+	grid-column: 1/2;
+	
+	grid-row: auto;
+	display: inline-block;
+}
+
+
+.media {
+	grid-column: 3/4;
+	
+grid-row: auto;
+	display: inline-block;
+}
+
+
+.title-project {
+	grid-column: 2/3;
+	
+grid-row: auto;
+	text-align: center;
+	
+margin: 15px 0px 0px 0px;
+
+}
+
+
+.menu {
+	
+	
+	font-family: sans-serif;
+    background-color: #ff8080;
+    overflow: hidden;
+    height:50px;
+
+	position: fixed;
+    top: 0;
+  
+    width: 100%;
+    left: 0;
+  
+    text-align: center;
+  
+    color: #f2f2f2;
+}
+
+
+.menu a {
+  float: left;
+  
+display: block-inline;
+  
+text-align: center;
+  
+padding: 20px 15px;
+  
+text-decoration: none;
+
+}
+
+
+.menu a:hover {
+  transition: all 0.7sec ease-in-out 0s;
+  background: #ddd;
+  color: black;
+}
+
+
+/* -------------------------------------Navigation bar by Max ends------------------------------------------------------------------- */
+
 
 
 
 /* -------------------------------------Effect for news links------------------------------------------------------------ */
 a {
 	
-	text-decoration: none;	
+	text-decoration: none;
+	font-family: sans-serif;
 }
 
 .row a:hover{
@@ -64,6 +151,7 @@ a:hover{
 .row h3{
 	
 	color: #ff0080;
+	font-family: sans-serif;
 }
 
 
@@ -164,6 +252,7 @@ a:hover{
 	
 	text-align: center;
 	color: #ff0080;
+	font-family: sans-serif;
 
 }
 
@@ -243,7 +332,7 @@ header {
 
 footer {
 	
-	margin-top: 10px;
+	margin-top: 30px;
 	height: 100px;
 	background-color: #ff8080;
 	padding: 30px 5px 5px 5px;
@@ -268,12 +357,15 @@ footer a:hover{
 /* This is the div that will be used to hold all contents of the site */
 .container {
 	
-	
+	margin-top: 15px;
 	margin-right: auto;
 	margin-left: auto; 
 	width: 1000px; 
 }
 
+
+
+ 
 
 
 

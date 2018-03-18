@@ -1,6 +1,4 @@
 
-
-
 /* -------------------------------------Navigation bar starts------------------------------------------------------------------- */
 
 /* Add a black background colour to the navigation  bar*/
@@ -45,6 +43,7 @@
 	height: 510px;
   	position: relative;
     text-align: center;
+	margin-top: 50px; 
  
 }
 
@@ -59,6 +58,7 @@
 
 .homepageMessage{
 	
+	font-family: sans-serif;
 	position: absolute;
     top: 50%;
     left: 50%;

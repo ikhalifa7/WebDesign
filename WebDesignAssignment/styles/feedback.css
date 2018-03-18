@@ -9,6 +9,7 @@
 	margin-right: auto;
 	margin-left: auto; 
 	width: 1000px;
+	margin-top:25px; 
 	
 }
 
@@ -65,6 +66,7 @@
     border-color: #ff0080;
     border-width: 5px;
     width: 950px;
+	margin-top: 0PX;
 
 }
 

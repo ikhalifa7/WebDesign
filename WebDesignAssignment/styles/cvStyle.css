@@ -1,3 +1,5 @@
+/**This is used to style the cv**/
+
 body{
 	
 	padding-left:150px;
@@ -9,6 +11,7 @@ body{
 h2{
 	
 	text-align: center;
+	font-family: sans-serif;
 }
 
 #myName{
@@ -23,5 +26,4 @@ h2{
 	margin-left: 41%;
 	margin-right: 50%;
 	border-style: solid ;
-	
 }

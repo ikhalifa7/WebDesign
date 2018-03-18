@@ -1,0 +1,75 @@
+CSS 
+
+
+nav {
+	display: grid;
+	grid-template-columns: 32.5% 45% 22.5%;
+	grid-template-rows: auto;
+
+}
+
+.item {
+	grid-column: 1/2;
+	grid-row: auto;
+	display: inline-block;
+}
+
+.media {
+	grid-column: 3/4;
+	grid-row: auto;
+	display: inline-block;
+}
+
+.title-project {
+	grid-column: 2/3;
+	grid-row: auto;
+	text-align: center;
+	margin: 15px 0px 0px 0px;
+
+}
+
+.menu {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  color: #f2f2f2;
+}
+
+.menu a {
+  float: left;
+  display: block-inline;
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+
+}
+
+.menu a:hover {
+  background: #ddd;
+  color: black;
+}
+
+__________HTML__________
+
+	<nav class="menu">
+		<div class="item">
+		<a href="#">item 1</a>
+		<a href="#">item 2</a>
+		<a href="#">item 3</a>
+		<a href="#">item 4</a>
+		</div>
+	<div id="title-project">
+		<h5>Web Project</h5>
+	</div>
+
+	<div class="media">
+	<a href="#">Media 1</a>
+	<a href="#">Media 2</a>
+	<a href="#">Media 3</a>
+	</div>
+	</nav>
+	
