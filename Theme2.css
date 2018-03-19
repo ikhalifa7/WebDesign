@@ -12,7 +12,7 @@ body {
 	--colorFour:#4E4A59;
 	--colorFive:#839073;
 
-	background-color: var(--colorOne);
+	background-color: #283D3B;
 	font-family: sans-serif, Roboto;
 	color:var(--colorTwo);
 }
@@ -51,26 +51,33 @@ nav a {
 	display: inline-block;
 }
 
-.item a {
-	transition: 0.3s;
-	padding: 10px 15px;
-}
-.item a:hover {
-	padding-bottom: 30px;
-  background: var(--colorThree);
-  color: var(--colorOne);
-}
 .media {
 	grid-column: 3/4;
 	grid-row: auto;
 	display: inline-block;
-	padding: 10px 15px;
+}
+
+.theme-icone {
+	width: 50px;
+	height: 50px;
+}
+
+#T1 {
+
+	background-color: #7cae7a;
+	transition: 0.8s;
+}
+
+#T1:hover {
+	background-color: #4e4a59;
 }
 
 .title-project {
 	grid-column: 2/3;
 	grid-row: auto;
 	text-align: center;
+	margin: 15px 0px 0px 0px;
+
 }
 
 .menu {
@@ -82,18 +89,22 @@ nav a {
   left: 0;
   text-align: center;
   color: var(--colorOne);
-	margin: 0 0 2% 0;
 }
 
 .menu a {
   float: left;
   display: block-inline;
   text-align: center;
+  padding: 20px 15px;
   text-decoration: none;
+  transition: 0.8s;
 	color: var(--colorOne);
 }
 
-
+.menu a:hover {
+  background: var(--colorThree);
+  color: var(--colorOne);
+}
 
 
 /* Box implementation */
@@ -152,10 +163,8 @@ color: var(--colorOne);
 	cursor: pointer;
 	transition: 0.8s;
 	color: var(--colorOne);
-	margin: 0% 35% 0 45%;
 
 }
-
 
 .toggle-wrap-btn:hover {
 	background-color: var(--colorThree);
@@ -170,7 +179,7 @@ color: var(--colorOne);
 }
 
 .snippet-code {
-	margin: 2% 30% 2% 40%;
+	margin: 2% 40% 2% 30%;
 	background-color: var(--colorFour);
 	color:var(--colorFive);
 	border-radius: 5px;
