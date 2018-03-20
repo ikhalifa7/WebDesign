@@ -1,0 +1,120 @@
+/**stylesheet for the feedback page**/
+
+
+/* -------------------------------------Grid div and content div------------------------------------------------------------ */
+/*This is the main grid of the web pages*/
+.grid {
+	
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto; 
+	width: 1000px;
+	margin-top:25px; 
+	
+}
+
+/*This is the area where all the main content of the page go*/
+.content{
+	
+	background-color: #eaedf2;
+	grid-area:content;
+	display: grid;
+	
+	grid-template-columns: 1fr 1fr;
+	
+	grid-template-rows:
+	1fr
+	1fr ;
+	
+	grid-template-areas:
+	"leftContent"
+	"leftContent";
+	
+	grid-gap:5px;
+	height:520px;
+	margin-bottom: 10px;
+}
+
+
+/* ---------------------------------------------------Form----------------------------------------------------------------- */
+
+
+
+/* The form */
+.container{
+	
+    border-radius: 5px;
+    
+    padding: 5px;
+    padding-bottom: 35px;
+    height: 410px;
+    
+    border-right-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    
+    border-color: #394053;
+    border-width: 5px;
+    width: 950px;
+	margin-top: 15px;
+	margin-left: 15px;
+	
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], select, textarea{
+   
+    box-sizing: border-box; 
+    margin-top: 6px;
+    width: 100%; 
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    margin-bottom: 12px; 
+    resize: none; 
+    border-radius: 4px; 
+  
+    
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	
+    background-color: #394053;
+    color: white;
+    cursor: pointer;
+    padding-right: 50px;
+    margin-left: 153px;
+    padding: 12px 20px;
+   
+  
+    color: white;
+    cursor: pointer;
+    padding-left: 50px;
+    border-radius: 4px;
+   
+    padding-right: 50px;
+    margin-left: 400px;
+	
+	
+}
+
+
+
+/* Add hover effect to the submit button */
+input[type=submit]:hover {
+    background-color: #661400;
+}
+
+
+/*This is the div that holds the navigation bar*/
+
+
+
+/* ---------------------------------------------------Form ends------------------------------------------------------------- */
+
+
+
+
+

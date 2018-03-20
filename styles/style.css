@@ -1,0 +1,359 @@
+/**This css file is responsible for formatting things that are common to all pages. Eg footer, navigation bar, links**/
+
+body{
+	
+		--colorOne:#f3efe0;
+	--colorTwo: #394053;
+	--colorThree: #7cae7a;
+	--colorFour: #4E4A59;
+	--colorFive: #839073;
+}
+
+/* -------------------------------------Navigation bar starts------------------------------------------------------------------- */
+
+/* Add a black background colour to the navigation  bar*/
+nav {
+	display: grid;
+	grid-template-columns: 52.5% 25% 22.5%;
+	grid-template-rows: auto;
+	z-index: 1;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+.Logo{
+	z-index: 2;
+	position: fixed;
+	height: 90px;
+	width: 90px;
+	top: 0;
+	margin-left: 55%;
+	border-radius: 50px;
+	background-image: url(../html/maxHTML/WebDesignProject/html_Max/img/Nightsky.gif);
+	background-size: 80px;
+	border: 5px solid var(--colorOne);
+
+}
+
+#Logo-animation{
+	transition: 0.3s;
+}
+
+#Logo-animation:hover{
+	transform: rotateZ(45deg);
+}
+
+.item {
+	grid-column: 1/2;
+	grid-row: auto;
+	display: inline-block;
+}
+
+.item a {
+	transition: 0.3s;
+	padding: 10px 15px;
+}
+.item a:hover {
+	padding-bottom: 30px;
+  background: var(--colorThree);
+  color: var(--colorOne);
+}
+.media {
+	grid-column: 3/4;
+	grid-row: auto;
+	display: inline-block;
+	padding: 10px 15px;
+}
+
+.title-project {
+	grid-column: 2/3;
+	grid-row: auto;
+	text-align: center;
+}
+
+.menu {
+	
+	
+  overflow: hidden;
+  background-color: var(--colorTwo);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  color: var(--colorOne);
+	margin: 0 0 2% 0;
+}
+
+.menu a {
+  float: left;
+  display: block-inline;
+  text-align: center;
+  text-decoration: none;
+	color: var(--colorOne);
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------Effect for news links------------------------------------------------------------ */
+a {
+	
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.row a:hover{
+	
+	text-decoration: underline;
+	color: blue;
+	
+	
+}
+
+
+a:hover{
+	
+	text-decoration: underline;
+	color: blue;
+	
+	
+}
+.row h3{
+	
+	color: #394053;
+	font-family: sans-serif;
+}
+
+
+
+
+#anchor{
+	
+  margin-left: 329px;
+}
+
+
+/* -------------------------------------First row of each column to the left------------------------------------------------------------------- */
+
+/* The first column of all rows must have a margin of zero. This will push them to left of our  */
+
+.seven:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.eight:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.nine:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.ten:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.eleven:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.five:first-child{ 
+	
+	margin-left: 0;
+}
+
+.four:first-child{ 
+	
+	margin-left: 0; 
+}
+.three:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.two:first-child{ 
+	
+	margin-left: 0; 
+	
+}
+
+.one:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.six:first-child{ 
+	
+	margin-left: 0; 
+}
+
+/* -------------------------------------End of first columns------------------------------------------------------------------- */
+
+
+/* -------------------------------------Image size for different grid sizes---------------------------------------------------- */
+
+
+.six img{
+	
+	height: 200px;
+	width:100%;
+	border-style:solid;
+	border-color: #394053;
+  	background: url(image1.jpg) no-repeat center center fixed; 
+  	
+}
+
+.three img{
+	
+	height: 200px;
+	width:98%;
+	border-style:solid;
+	border-color: #394053;
+  	background: url(image1.jpg) no-repeat center center fixed; 
+  	
+}
+
+.largeHeading{
+	
+	text-align: center;
+	color: #394053;
+	font-family: sans-serif;
+	
+}
+
+#hrTop{
+	
+	margin-top: 125px;
+}
+
+/* -------------------------------------Determination of grid sizes------------------------------------------------------------------- */
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+.eight {
+	width: 66%;
+	float: left;
+	margin-left: 2%;
+}
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+.six {
+	width: 48.5%; /* This div spans six columns (the entire row)*/
+	float: left;
+	margin-left: 2%;
+}
+.five {
+	width: 40.5%; /* This div spans five columns */
+	margin-left: 2%;
+	float:left;
+}
+.four {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+.three {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+
+}
+.one {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+
+
+header {
+	
+	height: 73px;
+	background-color: #d13328;
+}
+
+/* -------------------------------------Footer starts------------------------------------------------------------------- */
+
+footer {
+	
+	
+	height: 100px;
+	background-color: #394053;
+	font-size: 12px;
+	text-align:  center;
+	bottom: 0;
+	width: 100%;
+	max-width: 1000px;
+    margin: auto;
+	color: white;
+	padding-top: 20px;
+}
+
+footer a:hover{
+	
+	text-decoration: underline;
+	color: #7cae7a;
+	
+}
+
+footer a:visited{
+	color: #f3efe0;
+}
+
+
+
+/* -------------------------------------Container starts------------------------------------------------------------------- */
+
+/* This is the div that will be used to hold all contents of the site */
+.container {
+	
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto; 
+	max-width: 1000px;
+	width: 100%;
+}
+
+
+
+ 
+
+
+

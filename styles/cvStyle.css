@@ -1,0 +1,63 @@
+/**This is used to style the cv**/
+
+body{
+	
+	padding-left:150px;
+	width: 75%;
+	display: block;
+	border: thin;
+}
+
+h2{
+	
+	text-align: center;
+}
+
+#myName{
+	
+	text-align: center; }
+
+	
+#cvImage{
+	
+	height: 150px;
+	width: 150px;
+	margin-left: 41%;
+	margin-right: 50%;
+	border-style: solid ;
+	
+}
+
+#container{
+	
+	margin-top:5px;
+	border-right-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    
+    padding: 40px;
+    border-color: #000000;
+    
+    margin-bottom: 50px;
+    
+    background-color: #030C76;
+    color: #FFF225;
+}
+
+
+
+#myPic{
+	
+	float:right;
+	margin-right: 64px;
+}
+
+#details{
+	
+	height: 150px;
+	width: 200px;
+	margin-right: 50%;
+	border-style: solid 
+	
+}

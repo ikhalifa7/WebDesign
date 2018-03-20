@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* detect screen device size, and set font relative to */
+ @media (min-width: 1000px) {
+        html {
+            font-size: 1.1rem;
+        }
+    }
+
+    @media (max-width: 780px) {
+        html {
+            font-size: .875rem;
+        }
+    }
+
+    @media (max-width: 702px) {
+        html {
+            font-size: .75rem;
+        }
+    }
+
+
+    @media (max-width: 623px) {
+        html {
+            font-size: .4rem;
+        }
+    }
+
+
+body{
+	
+	text-align: justify;
+	background-color: #f3efe0;
+}
+
+
+/* nested grid for content*/
+.wrapper {
+	grid-template:
+	"main main"
+	"list pic"
+	"main2 main2";
+  display: grid;
+	grid-row-gap: 2px;
+	grid-column-gap: 2px;
+	justify-content: center;
+
+
+}
+
+.g {
+	background-color: #394053;
+	color: #fff;
+	border-radius: 15px;
+	padding: 20px;
+	font-family: Verdana, Arial, monospace, "Sans-serif" ; 
+	
+}
+
+
+/*	end grid */
+
+
+/*	grid areas */
+.main {
+	grid-area: main;
+
+
+}
+
+.main2 {
+	grid-area: main2;
+
+}	
+
+.advdis {
+	grid-area: list;
+
+}	
+
+.pic {
+	grid-area: pic;
+
+}	
+
+
+/* end grid areas */
+
+
+
+/* content modification */
+.parag {
+	text-indent: 3%;
+}	
+
+h3{
+	text-decoration: underline;
+	padding-top: 25px;
+}	
+.pic img{
+	min-width: 115px;
+	min-height: 105px;
+	height: 18%;
+	width: 18%;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+	float: left;
+	margin: 5px 5px 0;
+
+}
+
+#copy{
+	color: #9FE4F9;
+	text-decoration: underline;
+}
+#copy:hover{
+	color: #A7F580;
+}
+
+#oa{
+	margin-left: 55px;
+
+}
+
+#hrTop{
+	
+	margin-top: 120px;
+}
+
+.fOr{
+	
+	margin-top: 5px;
+}

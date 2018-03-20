@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+body {
+	--colorOne:#f3efe0;
+	--colorTwo: #394053;
+	--colorThree: #7cae7a;
+	--colorFour:#4E4A59;
+	--colorFive:#839073;
+
+	background-color: #283D3B;
+	font-family: sans-serif, Roboto;
+	color:var(--colorTwo);
+}
+
+.hidden {
+	display: none;
+}
+
+hr {
+	width: 80%;
+	opacity: 0.2;
+	color: #bebdc2;
+	z-index: -1;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* ________________Sticky Menu_____________ */
+nav {
+	display: grid;
+	grid-template-columns: 32.5% 45% 22.5%;
+	grid-template-rows: auto;
+	z-index: 1;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+.item {
+	grid-column: 1/2;
+	grid-row: auto;
+	display: inline-block;
+}
+
+.media {
+	grid-column: 3/4;
+	grid-row: auto;
+	display: inline-block;
+}
+
+.theme-icone {
+	width: 50px;
+	height: 50px;
+}
+
+#T1 {
+
+	background-color: #7cae7a;
+	transition: 0.8s;
+}
+
+#T1:hover {
+	background-color: #4e4a59;
+}
+
+.title-project {
+	grid-column: 2/3;
+	grid-row: auto;
+	text-align: center;
+	margin: 15px 0px 0px 0px;
+
+}
+
+.menu {
+  overflow: hidden;
+  background-color: var(--colorTwo);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  color: var(--colorOne);
+}
+
+.menu a {
+  float: left;
+  display: block-inline;
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+  transition: 0.8s;
+	color: var(--colorOne);
+}
+
+.menu a:hover {
+  background: var(--colorThree);
+  color: var(--colorOne);
+}
+
+
+/* Box implementation */
+
+.content-wrap {
+	overflow: hidden;
+	margin: 65px 15% 0px 15%;
+	display: grid;
+	grid-template-columns: 15% 85%;
+	grid-template-rows: auto;
+
+
+}
+
+
+.icone-wrap {
+	background-color: none;
+	grid-column: 1/2;
+	grid-row: 1/2;
+	padding: 10px 30px 10px 25px;
+	background-color: var(--colorTwo);
+}
+
+
+.icone {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	padding: 10px;
+	background-color: var(--colorThree);
+
+}
+
+.title-wrap {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	background-color: none;
+	text-align: center;
+background-color: var(--colorTwo);
+color: var(--colorOne);
+}
+
+.main-wrap {
+	grid-column: 1/3;
+	grid-row: 2/3;
+	background-color: var(--colorOne);
+	text-align: justify;
+	padding: 5px 10px 5px 10px;
+}
+
+.toggle-wrap-btn {
+	grid-column: 1/3;
+	grid-row: 3/4;
+	background-color: var(--colorTwo);
+	text-align: center;
+	cursor: pointer;
+	transition: 0.8s;
+	color: var(--colorOne);
+
+}
+
+.toggle-wrap-btn:hover {
+	background-color: var(--colorThree);
+}
+
+
+
+/* Testing effects and sizing */
+
+.hidden {
+	background-color: #4d9de0;
+}
+
+.snippet-code {
+	margin: 2% 40% 2% 30%;
+	background-color: var(--colorFour);
+	color:var(--colorFive);
+	border-radius: 5px;
+}
+
+.scrollToTop{
+	width:40px;
+	height:40px;
+	padding:10px;
+	text-align:center;
+	font-weight: bold;
+	color: var(--colorOne);
+	text-decoration: none;
+	position:fixed;
+	bottom: 10px;
+	right:40px;
+	display:none;
+	background: #394053 url('html_Max/img/cd-top-arrow.svg') no-repeat center 50%;
+}
+
+.scrollToTop:hover{
+	text-decoration:none;
+}

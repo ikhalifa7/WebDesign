@@ -1,0 +1,86 @@
+body {
+	font-family:Verdana, serif,  monospace  ;
+	background: black;
+}
+
+
+.name {
+	font-size: 4em;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+#first, .role{
+	color: #5f94cc;
+	
+}
+
+#second, .location{
+	color: #085aaf;
+	
+}
+
+.pdetails{
+	font-size: 14px;
+	 margin-left: auto;
+	margin-right: auto;
+}
+
+#sub{
+	
+	color: #84B5E6;
+}
+
+#number, .date{
+	
+	color: #FC696E;
+}
+
+#email{
+	font-size: 14px;
+	color: #39FF8D;
+	margin-top: 0px;
+	 margin-left: auto;
+	margin-right: auto;
+}
+
+h3 {
+	color: #31E345;
+
+}
+
+.desc{
+	text-align: justify;
+	text-indent: 5%;
+}
+
+.date{
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.role{
+    margin-left: 20px;
+}
+
+	
+
+.wrapper {
+  display: grid;
+
+	grid-row-gap: 3px;
+
+	justify-content: center;
+	max-width: 1000px;
+	width: 100%;
+	margin: auto;
+      
+}
+
+.g {
+	background-color: #394053;
+	color: #fff;
+	border-radius: 5px;
+    padding: 20px 5px;
+	
+    }

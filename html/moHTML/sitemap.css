@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+
+#svg g:hover  text{
+	font-weight: bold;
+	color: red;
+	fill: #00B2E7;
+	font-family: Verdana, Arial, monospace, "Sans-serif" ; 
+	font-size: 14px;
+}
+
+#svg g:hover rect,
+#svg g:focus rect {
+	fill: black;
+	stroke: #00B2E7;
+	stroke-width: 3px;
+	
+}
+svg{
+	margin: auto;
+}
+#svg rect{
+	
+	fill: transparent;
+	stroke: white; 
+	stroke-width: 2px; 
+}
+
+#svg text{
+	font-size: 18px; 
+	text-anchor: middle; 
+	fill: white;
+}
+
+#svg line{
+	fill: red;
+	stroke-width: 2px;
+	stroke: red;
+}
+
+#svg polyline{
+	fill: red;
+	stroke: red;
+	stroke-width: 1px;
+}
+
+body{
+background: black;	
+	
+}
+
