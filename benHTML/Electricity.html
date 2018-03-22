@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="../../styles/style.css">
+
+	
+<style>
+	*{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: currentColor;
+	text-align: center; 
+	}
+/*--------------------------------------------------------------
+CSS Reset
+--------------------------------------------------------------*/
+html {
+	font-family: Arial, Verdana, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust:     100%;
+}
+
+body {
+	margin: 0;
+	
+	}
+	/**
+ * The primary stylesheet for the CSS Grid Playground.
+ * This sheet pulls in surrounding components allowing you to focus on specifics.
+ */
+
+/* Components */
+@import url('CSS/reset.css');
+@import url('CSS/accessibility.css');
+@import url('CSS/layout.css');
+@import url('CSS/typography.css');
+@import url('CSS/masthead.css');
+@import url('CSS/boxes.css');
+
+
+
+.grid-container {
+	margin-top: 50px;
+  display:grid;
+  
+	left: 0;
+	margin-right: 5px;
+  border-radius: 5px;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+   
+    border-color: #394053;
+    border-width: 5px;	
+  grid-template-columns: 33% 34% 33%;
+  grid-template-rows: 12% 36% 26% 26%;
+  grid-gap: 10px 10px;
+  background-color:#394053;
+  grid-template-areas: 
+    "header header header" 
+	"topsidebarleft topsidebarright topsidebarright"  
+    "sidebarleft content sidebarright"
+	"botsidebarleft main botsidebarright"  
+    "footer footer footer";
+	
+}
+	
+.item-a {
+  grid-area: header;
+  background-color: beige;
+}
+
+.item-c{
+  grid-area: topsidebarleft;
+  background-color: beige;	
+		display: flex;
+	
+  
+}
+	
+	#elecText{
+	
+		text-align: justify;
+		padding: 0 5px;
+	}	
+.item-d {
+  grid-area: topsidebarright; 
+  background-color: white;	
+  margin-right: 25px;
+	padding-top: 50px;
+	
+}
+.item-e{
+  grid-area: sidebarleft;
+  background-color: beige;	
+}
+.item-f{
+  grid-area: content; 
+  background-color: beige;	
+	padding:0 60px 40px;	
+}
+.item-g{
+  grid-area: sidebarright; 
+  background-color: beige;
+	margin-right: 25px;
+	
+}	
+.item-h{
+  grid-area: botsidebarleft;
+  background-color: beige;	
+	padding:0 60px 40px;
+}	
+.item-i{
+  grid-area: main;
+  background-color: beige;
+}		
+.item-j{
+  grid-area: botsidebarright; 
+  background-color: beige;	
+	margin-right: 25px;
+}
+.item-k {
+  grid-area: footer;
+	background-color: beige;
+}	
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
+}
+
+.modImg{
+		max-width: 230px;
+		max-height: 170px;
+		width: 100%;
+		height: 100%;
+	}	
+	
+	
+	footer{
+
+		margin-top: 10px;
+		max-width: 100%;
+	
+	}	
+	
+</style>
+	</head>	
+
+<body>
+
+
+<a href="#"><img class="Logo" id="Logo-animation" src="../maxHTML/WebDesignProject/html_Max/img/Rocket.svg" alt="Logo"></a>
+	<nav class="menu">
+	<div class="item">
+		<a href="../ismailaHTML/homepage.html">Home</a>
+		<a href="../maxHTML/quiz.html">Quiz</a>
+		<a href="../benHTML/WebShop.html">Shop</a>
+		<a href="../moHTML/gallery.html">Image Gallery</a>
+		
+		<a href="../ismailaHTML/experiments.html"> Experiments</a>
+		<a href="../maxHTML/"> Space</a>
+		<a href="../benHTML/electricity.html"> Electricity</a>
+		<a href="../moHTML/photon.html"> Photon/Optical</a>
+		<a href="../ismailaHTML/feedback.html">Feedback</a>
+		<a href="../maxHTML/WebProjectV2.html">About us</a>
+		</div>
+	<div id="title-project">
+	</div>
+
+	<div class="media">
+			
+		<a href="/Users/reckoo/Desktop/WebDesignProject/WebProjectV2.html"><img class="theme-icone"  src="html_Max/img/Theme1.svg" alt="T1"></a>
+		<a href="/Users/reckoo/Desktop/WebDesignProject/Theme2.html"><img class="theme-icone"  src="html_Max/img/Theme2.svg" alt="T2"></a>
+		<a href="#"><img class="theme-icone"  src="html_Max/img/Theme3.svg" alt="T3"></a>
+	</div>
+	</nav>
+
+
+
+<div class="grid-container">
+  <div class="item-a">
+  <p><font size="10" color="#A48404">
+	 The World of Electricity </font></p>
+	</div>
+ 
+
+	<div class="item-c">
+<img class="modImg" src="GreekFlag.png" alt="Thunderbolt">
+	<span id="elecText">The Origin of Electricity. Electricity is a kind of energy that can only be valued by the effects it gives. It is a fundamental part of nature and it is one of the commonly used forms of energy. This word comes from the Greek word elektron which means amber.
+	  <a href="url">http://www.hydroelectricite.ca/en/the-genesis-of-electricity.php</a></span>	
+</div>
+	
+  <div class="item-d">
+	<img class="modImg" src="Thunderbolt.png" alt="Thunderbolt">
+	  <img class="modImg" src="Thunderbolt.png" alt="Thunderbolt">
+	  <img class="modImg" src="Thunderbolt.png" alt="Thunderbolt">
+	</div>
+  <div class="item-e">
+	<img class="modImg" src="Hexagons.png" alt="Hexagon">
+	<span>Tesla:Electric Pioneers:
+ 	<a href="url">https://www.youtube.com/watch?v=iEJNJ0rFSe8</a></span>
+	</div>
+  <div class="item-f">
+	<img class="modImg" src="Half Sun.jpeg" alt="HalfSun">
+  	Natural Electrics:
+	  <a href="url"> https://blog.nationalgeographic.org/2014/06/26/the-shocking-truth-about-electric-animals/</a>
+	</div>
+  <div class="item-g">
+	<img class="modImg" src="Lightbulb.png" alt="Lightbulb">Alternative Producers:<a href="url">http://www.altenergy.org/</a></div>
+  <div class="item-h">
+	<img class="modImg" src="Car.png" alt="Car" >Electric Travel:
+	  <a href="url">https://www.tesla.com/en_GB/</a></div>
+  <div class="item-i">
+	  <img class="modImg" src="Battery.png" alt="Battery" >
+	  Now thats a Battery!
+	  <a href="url">https://www.digitaltrends.com/cool-tech/billionaire-aims-to-build-worlds-biggest-battery/</a> </div>
+  <div class="item-j">
+	  <img class="modImg" src="Thunderbolt in blue circle.png" alt="Lightblue">New Way Ahead:<a href="url">https://www.weforum.org/reports/the-future-of-electricity-new-technologies-transforming-the-grid-edge</a></div>
+	
+  <div class="item-k"></div>
+  <!--<div class="grid-item12">12</div>
+  <div class="grid-item13">13</div>
+  <div class="grid-item14">14</div>
+  <div class="grid-item15">15</div>
+  <div class="grid-item16">16</div>-->
+</div>
+
+
+
+
+</body>
+<footer>
+
+<p>Created by: Ben Taylor</p>
+
+<p> <a href="CV.html">View My CV </a> </p>
+
+<p> <a href="../moHTML/sitemap.html">Sitemap </a></p>		
+
+</footer>
+</html>
+
+

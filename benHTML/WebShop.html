@@ -1,173 +1,227 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="styles/style.css">
-<link href="styles/shop-1.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="../../styles/style.css">
+<link rel="stylesheet" type="text/css" href="Shop.css">
+<script src="Shop.js" type="text/javascript"></script>
 
 
-<title>Merchandise</title>
 
 </head>
 
 <body>
 
-<div class="grid" id="main">
-
-		<div class="navigationBar">
+	
+	
+<a href="#"><img class="Logo" id="Logo-animation" src="../maxHTML/WebDesignProject/html_Max/img/Rocket.svg" alt="Logo"></a>
+	<nav class="menu">
+	<div class="item">
+		<a href="../ismailaHTML/homepage.html">Home</a>
+		<a href="../maxHTML/quiz.html">Quiz</a>
+		<a href="../benHTML/WebShop.html">Shop</a>
+		<a href="../moHTML/gallery.html">Image Gallery</a>
 		
-			<div class="topnav">
+		<a href="../ismailaHTML/experiments.html"> Experiments</a>
+		<a href="../maxHTML/"> Space</a>
+		<a href="../benHTML/electricity.html"> Electricity</a>
+		<a href="../moHTML/photon.html"> Photon/Optical</a>
+		<a href="../ismailaHTML/feedback.html">Feedback</a>
+		<a href="../maxHTML/WebProjectV2.html">About us</a>
+		</div>
+	<div id="title-project">
+	</div>
+
+	<div class="media">
 			
-				<a href="ismailaHTML/index.html">Home</a>
-				<a href = "quiz.html" >Quiz</a>  
-				<a href = "images.html" > Images</a> 
-				<a class="active" >Shop</a> 
-				<a href="ismailaHTML/feedback.html">Feedback</a> 
-				<a href="about.html">About</a>
+		<a href="/Users/reckoo/Desktop/WebDesignProject/WebProjectV2.html"><img class="theme-icone"  src="html_Max/img/Theme1.svg" alt="T1"></a>
+		<a href="/Users/reckoo/Desktop/WebDesignProject/Theme2.html"><img class="theme-icone"  src="html_Max/img/Theme2.svg" alt="T2"></a>
+		<a href="#"><img class="theme-icone"  src="html_Max/img/Theme3.svg" alt="T3"></a>
+	</div>
+	</nav>
+	 
+	 
+	<div class="grid">
+
+		<hr id="hrTop">
+			<h1 class = "largeHeading" id="news">PRODUCT PAGE</h1>
+		<hr>
+		
+		
+		<div class="row">
+			
+			<div class="row1">
+					
+					<div class="four">
+					
+				
+						<img src="Ash-Backpack.jpg">
+					
+					
+					<h3> Backpack &#163;3 </h3> 
+					
+					<form>
+					<select  id="backpackQuantity" on name="backpackQuantity">
+
+						<option value="">Quantity...</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+
+					</select>
+					
+					<select id="backpackColour" name="backpackColour">
+
+						<option value="">Color...</option>
+						<option value="Ash">Ash</option>
+						<option value="Khaki">Khaki</option>
+						<option value="Olive">Olive</option>
+
+
+					</select>
+					
+					</form>
+					</div><!--closing column 3-->
+				
+				<div class="four">
+					
+					
+						<img src="Ash-tShirt.jpg">
+					
+					
+					<h3> Shirt &#163;5 </h3> 
+					
+					<form>
+					<select id="shirtQuantity" name="shirtQuantity">
+
+						<option value="">Quantity...</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+
+					</select>
+					
+					<select id="shirtColour" name="shirtColour">
+
+						<option value="">Color...</option>
+						<option value="Ash">Ash</option>
+						<option value="Khaki">Khaki</option>
+						<option value="Olive">Olive</option>
+
+
+					</select>
+					</form>
+					
+				</div><!--closing column 3-->
+				
+				<div class="four">
+					
+					<form>
+					
+						<img src="Ash-Baseball.jpg">
+					
+					
+					<h3> Cap &#163;4 </h3> 
+					
+					<select id="capQuantity" name="capQuantity">
+
+						<option value="">Quantity...</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+
+					</select>
+					
+					<select id="capColour" name="capColour">
+
+						<option value="">Color...</option>
+						<option value="Ash">Ash</option>
+						<option value="Khaki">Khaki</option>
+						<option value="Olive">Olive</option>
+
+
+					</select>
+					
+					</form>
+					
+				</div><!--closing column 3-->
+				
+			
+				
 				
 			</div>
+		
+	
 
-		</div>
+	</div>
+	
+	
+	<div class="row" id="total" > 
+	
+		<h1 >   </h1>
 		
-		
-		<div class="content">
-			<!--Main Content-->
+		<h1 id="totalPrice" >    </h1>
+	
+	</div>
+	
+	
+	
 
-		
-			<!--Left Content-->	
+	<div class="row">
+			
 				
-
-
-<h1></h1>
-<div class="leftContent">
-<div class="product" id="product1">
-	<img src="Images/Ash-Backpack.jpg" class="thumbnail" alt="ash backpack" id="ashImg">
-	<div class ="description">
-		Ash Backpack
-		<div class="price">£19</div>
 	</div>
-</div>
-<div class="box"></div>
-<div class="product" id="product2">
-	<img src="Images/Khaki-Backpack.jpg" class="thumbnail" alt="khaki backpack" id="khakiImg">
-	<div class ="description">
-		Khaki Backpack
-		<div class="price">£19</div>
-	</div>	
-</div>
-<div class="product" id="product3">
-	<img src="Images/Olive-Backpack.jpg" class="thumbnail" alt="olive backpack" id="oliveImg">
-	<div class ="description">
-		Olive Backpack
-		<div class="price">£19</div>
-	</div>	
-</div>
+	
+	
+	<div id="row">
+	
+		<div class="formContent">
+				
+				<!-- Form starts here -->
+				<form class="container" action="">
+		
+					
+					<!-- Text fiellds -->
+					<input type="text" id="name" name="firstname" placeholder="Enter first name.."> 
+					<input type="text" id="lastName" name="lastName" placeholder="Enter surname..">
+					<input type="text" id="postCode" name="postcode" placeholder="Enter postcode.."> 
+					
+					<br>
+					<br>
+					
+					<!-- Submit button -->
+					<input id="submitButton" onclick="submitData()" type="submit" value="Submit">
+
+				</form>
+				<!-- Form ends here -->
 
 
-<form onReset="resetOrder()">
-<label for="merchandiseOptions">Merchandise Options</label>
-<select name="merchandiseOptions" id="merchandiseOptions" onChange="CheckOptions(this.form)">
-	<option value="PleaseSelect">Please Select</option>
-	<option value="Cap">Cap</option>
-	<option value="T-Shirt">T-Shirt</option>
-	<option value="Backpack">Backpack</option>
-</select>	
-
-Merchandise Colour:
-<input type="radio" name="colour" id="ash" value="ash" onChange="displayMerchandise(this.value)"><label for="ash">Ash</label>
-<input type="radio" name="colour" id="khaki" value="khaki" onChange="displayMerchandise(this.value)"><label for="khaki">Khaki</label>
-<input type="radio" name="colour" id="olive" value="olive" onChange="displayMerchandise(this.value)"><label for="olive">Olive</label>
-
-<input type="reset" value="Clear your Order">
-<input type="button" value="Place your Order">
-</form>
-</div>
-<div class="rightContent">Right Content
-<div class="labelorder">Your Order:
-	<div id="orderDescription"></div>
-	<div class="product" id="order"></div>
-</div>
-</div>
-			<!--<input type="button" value="increase" onClick="increase()">
-			<input type="button" value="decrease" onClick="decrease()">-->
-
-<!--<script src="FontSize.js">-->
-<script>
-function getRadioValue( radioArray ){
-	var i;
-	for (i=0; i < radioArray.length; i++){
-		if(radioArray[i].checked){
-			return radioArray[i].value;
-		}
+			</div>
 		
 		
-	}
-	return"";
-}
-function getSelectedValue( selectList ){
-	return selectList[ selectList.selectedIndex ].value;	
-}	
-function getSelectedText ( selectList ){
-	return selectList.options[ selectList.selectedIndex ].text;
-}
-function resetOrder() {	
-	document.getElementById( "order" ).innerHTML = "";
-	document.getElementById("ashImg").src = "Images/Ash-Backpack.jpg";
-	document.getElementById("khakiImg").src = "Images/Khaki-Backpack.jpg";
-	document.getElementById("oliveImg").src = "Images/Olive-Backpack.jpg";
-	
-}
-function displayMerchandise (Merchandise){
-	switch( Merchandise ){
-		case "ash":
-				document.getElementById( "order" ).innerHTML = document.getElementById( "product1" ).innerHTML;
-				break;
-		case "khaki":
-				document.getElementById( "order" ).innerHTML = document.getElementById( "product2" ).innerHTML;
-				break;
-		case "olive":
-				document.getElementById( "order" ).innerHTML = document.getElementById( "product3" ).innerHTML;
-				break;
-			default:
-				document.getElementById( "order" ).innerHTML = "";
-			
-	}
-	
-}	
-function CheckOptions(formRef){
-	var orderOption = getSelectedValue( formRef.merchandiseOptions );
-	var chosenMerchandise = getRadioValue( formRef.colour );
-	var ash_image= document.getElementById("ashImg");
-	var khaki_image= document.getElementById("khakiImg");
-	var olive_image= document.getElementById("oliveImg");
-	
-	if(orderOption.indexOf("Backpack") != -1) {
-		if (ash_image.src ="Images/Ash-Baseball.jpg" ){
-		ash_image.src="Images/Ash-Baseball.jpg";
-		khaki_image.src="Images/Khaki-Baseball.jpg";
-		olive_image.src="Images/Olive-Baseball.jpg";
-		}
-	}else{
-		if (ash_image.src = "Images/Ash-tShirt.jpg"){
-		ash_image.src = "Images/Ash-tShirt.jpg";
-		khaki_image.src = "Images/Khaki-tShirt.jpg";
-		olive_image.src = "Images/Olive-tShirt.jpg";
-		}
-	
-	}
-	displayMerchandise (chosenMerchandise);
-}
-
-
-</script>	
-	
-
-
-
-
-<!--<img src="SVG/fontsizebuttons.svg">-->
-			
+		
 	</div>
-	</div>	
+	
+	
+	
+	</div>
 </body>
+
+<footer>
+
+<p>Created by: Ben Taylor</p>
+
+<p> <a href="CV.html">View My CV </a> </p>
+
+<p> <a href="../moHTML/sitemap.html">Sitemap </a></p>		
+
+</footer>
+
 </html>

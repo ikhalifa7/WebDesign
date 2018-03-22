@@ -1,0 +1,1847 @@
+================================html for Presentation Page=========================
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Current-Type" content="image/svg+xml"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewpoint" content="width-device-width, intital-scale=1.0">
+<meta name="robots"content="index, follow">
+<meta name="viewpoint" content="width-device-width, intital-scale=1.0">
+
+<title>Presentation Page</title>
+
+
+</head>
+
+<body style="text-align: center;">
+
+
+	<img src="science.svg">
+	<img src="load.svg">
+	<img src="names.svg">
+
+<script>   
+
+
+    window.setTimeout(function(){
+
+        
+        window.location.href = "https://www.google.co.in";
+
+    }, 4000);
+
+
+</script>
+
+
+</body>
+
+</html>
+==========================================HTML for Product Page=================================================================
+
+<!doctype html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="../../styles/style.css">
+<link rel="stylesheet" type="text/css" href="Shop.css">
+<script src="../../Javascript/Shop.js" type="text/javascript"></script>
+
+
+
+</head>
+
+<body>
+
+	
+	
+<a href="#"><img class="Logo" id="Logo-animation" src="../maxHTML/WebDesignProject/html_Max/img/Rocket.svg" alt="Logo"></a>
+	<nav class="menu">
+	<div class="item">
+		<a href="../ismailaHTML/homepage.html">Home</a>
+		<a href="../maxHTML/quiz.html">Quiz</a>
+		<a href="../benHTML/WebShop.html">Shop</a>
+		<a href="../moHTML/gallery.html">Image Gallery</a>
+		
+		<a href="../ismailaHTML/experiments.html"> Experiments</a>
+		<a href="../maxHTML/"> Space</a>
+		<a href="../benHTML/electricity.html"> Electricity</a>
+		<a href="../moHTML/photon.html"> Photon/Optical</a>
+		<a href="../ismailaHTML/feedback.html">Feedback</a>
+		<a href="../maxHTML/WebProjectV2.html">About us</a>
+		</div>
+	<div id="title-project">
+	</div>
+
+	<div class="media">
+			
+		<a href="/Users/reckoo/Desktop/WebDesignProject/WebProjectV2.html"><img class="theme-icone"  src="html_Max/img/Theme1.svg" alt="T1"></a>
+		<a href="/Users/reckoo/Desktop/WebDesignProject/Theme2.html"><img class="theme-icone"  src="html_Max/img/Theme2.svg" alt="T2"></a>
+		<a href="#"><img class="theme-icone"  src="html_Max/img/Theme3.svg" alt="T3"></a>
+	</div>
+	</nav>
+	 
+	 
+	<div class="grid">
+
+		<hr id="hrTop">
+			<h1 class = "largeHeading" id="news">PRODUCT PAGE</h1>
+		<hr>
+		
+		
+		<div class="row">
+			
+			<div class="row1">
+					
+					<div class="four">
+					
+				
+						<img src="Ash-Backpack.jpg">
+					
+					
+					<h3> Backpack &#163;3 </h3> 
+					
+					<form>
+					<select  id="backpackQuantity" on name="backpackQuantity">
+
+						<option value="">Quantity...</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+
+					</select>
+					
+					<select id="backpackColour" name="backpackColour">
+
+						<option value="">Color...</option>
+						<option value="Ash">Ash</option>
+						<option value="Khaki">Khaki</option>
+						<option value="Olive">Olive</option>
+
+
+					</select>
+					
+					</form>
+					</div><!--closing column 3-->
+				
+				<div class="four">
+					
+					
+						<img src="Ash-tShirt.jpg">
+					
+					
+					<h3> Shirt &#163;5 </h3> 
+					
+					<form>
+					<select id="shirtQuantity" name="shirtQuantity">
+
+						<option value="">Quantity...</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+
+					</select>
+					
+					<select id="shirtColour" name="shirtColour">
+
+						<option value="">Color...</option>
+						<option value="Ash">Ash</option>
+						<option value="Khaki">Khaki</option>
+						<option value="Olive">Olive</option>
+
+
+					</select>
+					<!-- Form starts here-->
+					</form>
+					
+				</div><!--closing column 3-->
+				
+				<div class="four">
+					
+					<form>
+					
+						<img src="Ash-Baseball.jpg">
+					
+					
+					<h3> Cap &#163;4 </h3> 
+					
+					<select id="capQuantity" name="capQuantity">
+
+						<option value="">Quantity...</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+
+					</select>
+					
+					<select id="capColour" name="capColour">
+
+						<option value="">Color...</option>
+						<option value="Ash">Ash</option>
+						<option value="Khaki">Khaki</option>
+						<option value="Olive">Olive</option>
+
+
+					</select>
+					
+					</form>
+					
+				</div>
+				
+			
+				
+				
+			</div>
+		
+	
+
+	</div>
+	
+	
+	<div class="row" id="total" > 
+	
+		<h1 >   </h1>
+		
+		<h1 id="totalPrice" >    </h1>
+	
+	</div>
+	
+	
+	
+
+	<div class="row">
+			
+				
+	</div>
+	
+	
+	<div id="row">
+	
+		<div class="formContent">
+				
+			
+				<form class="container" action="">
+		
+					
+				
+					<input type="text" id="name" name="firstname" placeholder="Enter first name.."> 
+					<input type="text" id="lastName" name="lastName" placeholder="Enter surname..">
+					<input type="text" id="postCode" name="postcode" placeholder="Enter postcode.."> 
+					
+					<br>
+					<br>
+					
+				
+					<input id="submitButton" onclick="submitData()" type="submit" value="Submit">
+
+				</form>
+				<!-- Form ends here -->
+
+
+			</div>
+		
+		
+		
+	</div>
+	
+	
+	
+	</div>
+</body>
+
+<footer>
+
+<p>Created by: Ben Taylor</p>
+
+<p> <a href="">View My CV </a> </p>
+
+<p> <a href="../moHTML/sitemap.html">Sitemap </a></p>		
+
+</footer>
+
+</html>
+
+============================================Style CSS for Product Page===================================================================
+
+
+/**This css file is responsible for formatting things that are common to all pages. Eg footer, navigation bar, links**/
+
+body{
+	
+		--colorOne:#f3efe0;
+	--colorTwo: #394053;
+	--colorThree: #7cae7a;
+	--colorFour: #4E4A59;
+	--colorFive: #839073;
+}
+
+/* -------------------------------------Navigation bar starts------------------------------------------------------------------- */
+
+/* Add a black background colour to the navigation  bar*/
+nav {
+	display: grid;
+	grid-template-columns: 52.5% 25% 22.5%;
+	grid-template-rows: auto;
+	z-index: 1;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+.Logo{
+	z-index: 2;
+	position: fixed;
+	height: 90px;
+	width: 90px;
+	top: 0;
+	margin-left: 55%;
+	border-radius: 50px;
+	background-image: url(../html/maxHTML/WebDesignProject/html_Max/img/Nightsky.gif);
+	background-size: 80px;
+	border: 5px solid var(--colorOne);
+
+}
+
+#Logo-animation{
+	transition: 0.3s;
+}
+
+#Logo-animation:hover{
+	transform: rotateZ(45deg);
+}
+
+.item {
+	grid-column: 1/2;
+	grid-row: auto;
+	display: inline-block;
+}
+
+.item a {
+	transition: 0.3s;
+	padding: 10px 15px;
+}
+.item a:hover {
+	padding-bottom: 30px;
+  background: var(--colorThree);
+  color: var(--colorOne);
+}
+.media {
+	grid-column: 3/4;
+	grid-row: auto;
+	display: inline-block;
+	padding: 10px 15px;
+}
+
+.title-project {
+	grid-column: 2/3;
+	grid-row: auto;
+	text-align: center;
+}
+
+.menu {
+	
+	
+  overflow: hidden;
+  background-color: var(--colorTwo);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  color: var(--colorOne);
+	margin: 0 0 2% 0;
+}
+
+.menu a {
+  float: left;
+  display: block-inline;
+  text-align: center;
+  text-decoration: none;
+	color: var(--colorOne);
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------Effect for news links------------------------------------------------------------ */
+a {
+	
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.row a:hover{
+	
+	text-decoration: underline;
+	color: blue;
+	
+	
+}
+
+
+a:hover{
+	
+	text-decoration: underline;
+	color: blue;
+	
+	
+}
+.row h3{
+	
+	color: #394053;
+	font-family: sans-serif;
+}
+
+
+
+
+#anchor{
+	
+  margin-left: 329px;
+}
+
+
+/* -------------------------------------First row of each column to the left------------------------------------------------------------------- */
+
+/* The first column of all rows must have a margin of zero. This will push them to left of our  */
+
+.seven:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.eight:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.nine:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.ten:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.eleven:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.five:first-child{ 
+	
+	margin-left: 0;
+}
+
+.four:first-child{ 
+	
+	margin-left: 0; 
+}
+.three:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.two:first-child{ 
+	
+	margin-left: 0; 
+	
+}
+
+.one:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.six:first-child{ 
+	
+	margin-left: 0; 
+}
+
+/* -------------------------------------End of first columns------------------------------------------------------------------- */
+
+
+/* -------------------------------------Image size for different grid sizes---------------------------------------------------- */
+
+
+.six img{
+	
+	height: 200px;
+	width:100%;
+	border-style:solid;
+	border-color: #394053;
+  	background: url(image1.jpg) no-repeat center center fixed; 
+  	
+}
+
+.three img{
+	
+	height: 200px;
+	width:98%;
+	border-style:solid;
+	border-color: #394053;
+  	background: url(image1.jpg) no-repeat center center fixed; 
+  	
+}
+
+.largeHeading{
+	
+	text-align: center;
+	color: #394053;
+	font-family: sans-serif;
+	
+}
+
+#hrTop{
+	
+	margin-top: 125px;
+}
+
+/* -------------------------------------Determination of grid sizes------------------------------------------------------------------- */
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+.eight {
+	width: 66%;
+	float: left;
+	margin-left: 2%;
+}
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+.six {
+	width: 48.5%; /* This div spans six columns (the entire row)*/
+	float: left;
+	margin-left: 2%;
+}
+.five {
+	width: 40.5%; /* This div spans five columns */
+	margin-left: 2%;
+	float:left;
+}
+.four {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+.three {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+
+}
+.one {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+
+
+header {
+	
+	height: 73px;
+	background-color: #d13328;
+}
+
+/* -------------------------------------Footer starts------------------------------------------------------------------- */
+
+footer {
+	
+	
+	height: 100px;
+	background-color: #394053;
+	font-size: 12px;
+	text-align:  center;
+	bottom: 0;
+	width: 100%;
+	max-width: 1000px;
+    margin: auto;
+	color: white;
+	padding-top: 20px;
+}
+
+footer a:hover{
+	
+	text-decoration: underline;
+	color: #7cae7a;
+	
+}
+
+footer a:visited{
+	color: #f3efe0;
+}
+
+
+
+/* -------------------------------------Container starts------------------------------------------------------------------- */
+
+/* This is the div that will be used to hold all contents of the site */
+.container {
+	
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto; 
+	max-width: 1000px;
+	width: 100%;
+}
+===========================================Shop CSS for Product Page============================================================
+
+/**stylesheet for the feedback page**/
+
+
+/* -------------------------------------Grid div and content div------------------------------------------------------------ */
+/*This is the main grid of the web pages*/
+.grid {
+	
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto; 
+	width: 1000px;
+	margin-top:25px; 
+	background-color: azure;
+	
+}
+
+/*This is the area where all the main content of the page go*/
+.content{
+	
+	background-color: #000000;
+	grid-area:content;
+	display: grid;
+	
+	grid-template-columns: 1fr 1fr;
+	
+	grid-template-rows:
+	1fr
+	1fr ;
+	
+	grid-template-areas:
+	"leftContent"
+	"leftContent";
+	
+	grid-gap:5px;
+	height:490px;
+	
+}
+
+
+/* ---------------------------------------------------Form----------------------------------------------------------------- */
+
+.formContent{
+	
+
+	background-color: #394053;
+	margin: 15px;
+	margin-right: 5px;
+	width: 972px;
+
+	
+}
+
+/* The form */
+.container{
+	
+    border-radius: 5px;
+    
+    padding: 5px;
+    padding-bottom: 35px;
+    height: 200px;
+    
+    border-right-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+   
+    border-color: #839073; /* border color for form field , choose color from top of style.css or choose whatever looks best for you! */
+    border-width: 5px;
+    width: 950px;
+	
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], select, textarea{
+   
+    box-sizing: border-box; 
+    margin-top: 6px;
+    width: 100%; 
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    margin-bottom: 12px; 
+    resize: none; 
+    border-radius: 4px; 
+  
+    
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	
+    background-color: #ff0080;
+    color: white;
+    cursor: pointer;
+    padding-right: 50px;
+    margin-left: 400px;
+    padding: 12px 20px;
+    border: none;
+  
+    border-radius: 4px;
+  
+   
+   
+}
+
+
+
+/* Add hover effect to the submit button */
+input[type=submit]:hover {
+    background-color: #661400;
+}
+
+
+/*This is the div that holds the navigation bar*/
+
+
+
+/* ---------------------------------------------------Form ends------------------------------------------------------------- */
+
+#total{
+	
+	margin-left:400px;
+	border-width: thick;
+	
+}
+
+#totalPrice{
+	
+	color: aqua;
+}
+
+
+footer{
+	
+	margin-top: 50px;
+}
+
+
+
+<!doctype html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="../../styles/style.css">
+<link rel="stylesheet" type="text/css" href="Shop.css">
+<script src="Shop.js" type="text/javascript"></script>
+
+
+
+</head>
+
+<body>
+
+	
+	
+<a href="#"><img class="Logo" id="Logo-animation" src="../maxHTML/WebDesignProject/html_Max/img/Rocket.svg" alt="Logo"></a>
+	<nav class="menu">
+	<div class="item">
+		<a href="../ismailaHTML/homepage.html">Home</a>
+		<a href="../maxHTML/quiz.html">Quiz</a>
+		<a href="../benHTML/WebShop.html">Shop</a>
+		<a href="../moHTML/gallery.html">Image Gallery</a>
+		
+		<a href="../ismailaHTML/experiments.html"> Experiments</a>
+		<a href="../maxHTML/"> Space</a>
+		<a href="../benHTML/electricity.html"> Electricity</a>
+		<a href="../moHTML/photon.html"> Photon/Optical</a>
+		<a href="../ismailaHTML/feedback.html">Feedback</a>
+		<a href="../maxHTML/WebProjectV2.html">About us</a>
+		</div>
+	<div id="title-project">
+	</div>
+
+	<div class="media">
+			
+		<a href="/Users/reckoo/Desktop/WebDesignProject/WebProjectV2.html"><img class="theme-icone"  src="html_Max/img/Theme1.svg" alt="T1"></a>
+		<a href="/Users/reckoo/Desktop/WebDesignProject/Theme2.html"><img class="theme-icone"  src="html_Max/img/Theme2.svg" alt="T2"></a>
+		<a href="#"><img class="theme-icone"  src="html_Max/img/Theme3.svg" alt="T3"></a>
+	</div>
+	</nav>
+	 
+	 
+	<div class="grid">
+
+		<hr id="hrTop">
+			<h1 class = "largeHeading" id="news">PRODUCT PAGE</h1>
+		<hr>
+		
+		
+		<div class="row">
+			
+			<div class="row1">
+					
+					<div class="four">
+					
+				
+						<img src="Ash-Backpack.jpg">
+					
+					
+					<h3> Backpack &#163;3 </h3> 
+					
+					<form>
+					<select  id="backpackQuantity" on name="backpackQuantity">
+
+						<option value="">Quantity...</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+
+					</select>
+					
+					<select id="backpackColour" name="backpackColour">
+
+						<option value="">Color...</option>
+						<option value="Ash">Ash</option>
+						<option value="Khaki">Khaki</option>
+						<option value="Olive">Olive</option>
+
+
+					</select>
+					
+					</form>
+					</div><!--closing column 3-->
+				
+				<div class="four">
+					
+					
+						<img src="Ash-tShirt.jpg">
+					
+					
+					<h3> Shirt &#163;5 </h3> 
+					
+					<form>
+					<select id="shirtQuantity" name="shirtQuantity">
+
+						<option value="">Quantity...</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+
+					</select>
+					
+					<select id="shirtColour" name="shirtColour">
+
+						<option value="">Color...</option>
+						<option value="Ash">Ash</option>
+						<option value="Khaki">Khaki</option>
+						<option value="Olive">Olive</option>
+
+
+					</select>
+					</form>
+					
+				</div><!--closing column 3-->
+				
+				<div class="four">
+					
+					<form>
+					
+						<img src="Ash-Baseball.jpg">
+					
+					
+					<h3> Cap &#163;4 </h3> 
+					
+					<select id="capQuantity" name="capQuantity">
+
+						<option value="">Quantity...</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+
+					</select>
+					
+					<select id="capColour" name="capColour">
+
+						<option value="">Color...</option>
+						<option value="Ash">Ash</option>
+						<option value="Khaki">Khaki</option>
+						<option value="Olive">Olive</option>
+
+
+					</select>
+					
+					</form>
+					
+				</div><!--closing column 3-->
+				
+			
+				
+				
+			</div>
+		
+	
+
+	</div>
+	
+	
+	<div class="row" id="total" > 
+	
+		<h1 >   </h1>
+		
+		<h1 id="totalPrice" >    </h1>
+	
+	</div>
+	
+	
+	
+
+	<div class="row">
+			
+				
+	</div>
+	
+	
+	<div id="row">
+	
+		<div class="formContent">
+				
+				<!-- Form starts here -->
+				<form class="container" action="">
+		
+					
+					<!-- Text fiellds -->
+					<input type="text" id="name" name="firstname" placeholder="Enter first name.."> 
+					<input type="text" id="lastName" name="lastName" placeholder="Enter surname..">
+					<input type="text" id="postCode" name="postcode" placeholder="Enter postcode.."> 
+					
+					<br>
+					<br>
+					
+					<!-- Submit button -->
+					<input id="submitButton" onclick="submitData()" type="submit" value="Submit">
+
+				</form>
+				<!-- Form ends here -->
+
+
+			</div>
+		
+		
+		
+	</div>
+	
+	
+	
+	</div>
+</body>
+
+<footer>
+
+<p>Created by: Ben Taylor</p>
+
+<p> <a href="">View My CV </a> </p>
+
+<p> <a href="../moHTML/sitemap.html">Sitemap </a></p>		
+
+</footer>
+
+</html>
+ 
+======================================================Shop.js for Product Page===========================================
+/**
+
+ * 
+ * This Javascript file is responsible for handling the form data. 
+ * It sets the required fields and also gives feedback to the user after form submission.
+ * 
+ */
+
+
+x
+
+
+
+function getBagQuantity(){
+	
+	var quantity = document.getElementById("backpackQuantity").value;
+	return quantity;
+}
+
+function getBagColor(){
+	
+	var color = document.getElementById("backpackColour").value;
+	return color;
+}
+
+
+function getShirtQuantity(){
+	
+	var quantity = document.getElementById("shirtQuantity").value;
+	return quantity;
+}
+
+function getShirtColor(){
+	
+	var color = document.getElementById("shirtColour").value;
+	return color;
+}
+
+
+function getCapQuantity(){
+	
+	var quantity = document.getElementById("capQuantity").value;
+	return quantity;
+}
+
+function getCapColor(){
+	
+	var color = document.getElementById("capColour").value;
+	return color;
+}
+/**This function sets the required fields**/
+function setRequiredFields(){
+	
+	//name, lastname and rating are required
+	document.getElementById("name").required = true;
+	document.getElementById("lastName").required = true;
+	document.getElementById("rating").required = true;	
+	
+	
+	
+}
+
+
+/**This function sets the required fields by calling the method. It then gets the values of all the fields and alerts the user upon submit**/
+function submitData(){
+	
+	
+	//These are the values that we need for the alert
+	var name = document.getElementById("name").value;
+	var lastName = document.getElementById("lastName").value;
+	
+	var bagQuantity = getBagQuantity();
+	var bagColor = getBagColor();
+	
+	var shirtQuantity = getShirtQuantity();
+	var shirtColor = getShirtColor();
+	
+	var capQuantity = getCapQuantity();
+	var capColor = getCapColor();
+	
+	var total = bagQuantity * 3 + shirtQuantity * 5 + capQuantity * 4;
+	
+	alert("Hello " + name + " " + lastName +"." + "\nYou have ordered the following:"+ "\n" + bagQuantity + " " + bagColor + " bags" + "\n" + shirtQuantity + " " +shirtColor + " shirts"  + "\n" + capQuantity + " " + capColor + " caps" + "\nYour Total: " + total   + "\nThank you for shopping with us.");	
+	
+}
+
+
+
+=============================================CV html================================================================================================
+
+<!doctype html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+
+
+<h1>Ben Taylor</h1>
+</head>
+<body style="background-color:beige">
+<style>
+	
+body {
+  background-color: lightgrey;
+  font-family:Arial, helvetica, sans-serif; 
+  font-size: 1em;
+  color: black;
+}
+
+</style>
+
+	Postal Address:<br>
+	57 Stourhead House<br>
+	79 Tachbrook Street<br>
+	London<br>
+	SW1V 2QP <br><br>
+
+ 
+	Email: w1667280@my.westminster.co.uk<br>
+	Tel: 07941 962988
+<br>	
+<br>
+<hr style="width: 85%">
+<br>
+<p>	
+	For the last 5 years I’ve worked as a Corporate Merchandise and Print Buyer for Williams Lea. This role demanded good attention to detail and a dynamic attitude to solving problems through experience and the skills learnt from my education, this includes the degree I’m currently undertaking in Software Engineering and a degree in European Business. Ideally in my next role I’ll be able to utilise all of these skills to great effect.	
+</p>
+<br>
+
+<h2>Education</h2>
+<hr style="width: 85%">
+
+
+<li><h4>Software Engineering Beng – Currently 1st Year</h4></li>
+<li>University of Westminster, London</li>
+
+	
+<br>	
+<hr style="width: 85%">
+<br>
+
+<li><h4>Software Engineering Beng Dates(2017-to-2020)</h4></li>
+<li>University of Westminster, London</li>
+
+
+<hr style="width: 85%">
+
+
+<li><h4>European Business (1995-to-1999)</h4></li>
+<li>Anglia Polytechnic University, Cambridge</li>
+
+<hr style="width: 85%">
+
+<ul>
+	<li>Modules included: Acounting, Business Management, French</li>
+</ul>	
+
+					
+						
+<li>A-Levels	</li> 
+<li>Dulwich College, London (1992-to-1994)</li>
+<hr style="width: 85%">
+<ul>
+	<li>English (D), French (E)</li>
+</ul>	
+
+
+
+<li>GCSEs  </li>
+<li>Dulwich College, London (1989-to-1992)</li>
+<hr style="width: 85%">
+
+<ul>
+	<li>5 A-C including English and Maths</li> 
+</ul>
+<hr style="width: 85%">
+
+	<li><h4>Corporate Merchandise and Print Buyer(2001-to-2017)</h4></li>
+	
+<li>Williams Lea and Xerox, London	(in reverse chronological order – most recent experience first)</li>
+<hr style="width: 85%">
+
+<p>I was responsible for the printing and distribution of stationery for Ernst and Young covering their 20 UK offices.
+In addition I worked alongside my colleague in managing and processing orders for Corporate Merchandise items requested from Ernst and Young offices throughout the world. 
+Relevant work experience – continued (avoid splitting sections across pages but do this if it is unavoidable)</p>
+<hr style="width: 85%">
+
+<li><h4>Administrator(1999-to-2001)</h4></li>
+Williams Lea Temp Agency
+<hr style="width: 85%">
+
+<li><h4>Additional Information</h4></li>
+
+
+<ul>
+	<li>Basic proficiency in HTML, CSS, Java and MySQL.</li>  
+</ul>
+Languages (if you have more than one to offer)
+<ul>
+<li>French – Intermediate</li>
+<li>German - Basic</li>
+</ul>
+<li><h4>Interests and other skills</h4></li>
+
+<ul>
+<li>Sport: Enjoy keeping fit and healthy. Regularly swim and cycle 3 times a week which requires strong self-motivation and self-discipline.</li>
+<li>Travel: Enjoy taking opportunities to visit new places with their very different and ancient cultures.</li>
+<li>Driving licence: Hold a full clean UK driving licence.</li>
+</ul>
+
+<li><h4>References</h4></li>
+
+Available on request
+						
+												
+</body>
+</html>
+
+==================================================Electricity html===========================================================================
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="../../styles/style.css">
+
+	
+<style>
+	*{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: currentColor;
+	text-align: center; 
+	}
+/*--------------------------------------------------------------
+CSS Reset
+--------------------------------------------------------------*/
+html {
+	font-family: Arial, Verdana, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust:     100%;
+}
+
+body {
+	margin: 0;
+	
+	}
+	/**
+ * The primary stylesheet for the CSS Grid Playground.
+ * This sheet pulls in surrounding components allowing you to focus on specifics.
+ */
+
+/* Components */
+@import url('CSS/reset.css');
+@import url('CSS/accessibility.css');
+@import url('CSS/layout.css');
+@import url('CSS/typography.css');
+@import url('CSS/masthead.css');
+@import url('CSS/boxes.css');
+
+
+
+.grid-container {
+	margin-top: 50px;
+  display:grid;
+  
+	left: 0;
+	margin-right: 5px;
+  border-radius: 5px;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+   
+    border-color: #394053;
+    border-width: 5px;	
+  grid-template-columns: 33% 34% 33%;
+  grid-template-rows: 12% 36% 26% 26%;
+  grid-gap: 10px 10px;
+  background-color:#394053;
+  grid-template-areas: 
+    "header header header" 
+	"topsidebarleft topsidebarright topsidebarright"  
+    "sidebarleft content sidebarright"
+	"botsidebarleft main botsidebarright"  
+    "footer footer footer";
+	
+}
+	
+.item-a {
+  grid-area: header;
+  background-color: beige;
+}
+
+.item-c{
+  grid-area: topsidebarleft;
+  background-color: beige;	
+		display: flex;
+	
+  
+}
+	
+	#elecText{
+	
+		text-align: justify;
+		padding: 0 5px;
+	}	
+.item-d {
+  grid-area: topsidebarright; 
+  background-color: white;	
+  margin-right: 25px;
+	padding-top: 50px;
+	
+}
+.item-e{
+  grid-area: sidebarleft;
+  background-color: beige;	
+}
+.item-f{
+  grid-area: content; 
+  background-color: beige;	
+	padding:0 60px 40px;	
+}
+.item-g{
+  grid-area: sidebarright; 
+  background-color: beige;
+	margin-right: 25px;
+	
+}	
+.item-h{
+  grid-area: botsidebarleft;
+  background-color: beige;	
+	padding:0 60px 40px;
+}	
+.item-i{
+  grid-area: main;
+  background-color: beige;
+}		
+.item-j{
+  grid-area: botsidebarright; 
+  background-color: beige;	
+	margin-right: 25px;
+}
+.item-k {
+  grid-area: footer;
+	background-color: beige;
+}	
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
+}
+
+.modImg{
+		max-width: 230px;
+		max-height: 170px;
+		width: 100%;
+		height: 100%;
+	}	
+	
+	
+	footer{
+
+		margin-top: 10px;
+		max-width: 100%;
+	
+	}	
+	
+</style>
+	</head>	
+
+<body>
+
+
+<a href="#"><img class="Logo" id="Logo-animation" src="../maxHTML/WebDesignProject/html_Max/img/Rocket.svg" alt="Logo"></a>
+	<nav class="menu">
+	<div class="item">
+		<a href="../ismailaHTML/homepage.html">Home</a>
+		<a href="../maxHTML/quiz.html">Quiz</a>
+		<a href="../benHTML/WebShop.html">Shop</a>
+		<a href="../moHTML/gallery.html">Image Gallery</a>
+		
+		<a href="../ismailaHTML/experiments.html"> Experiments</a>
+		<a href="../maxHTML/"> Space</a>
+		<a href="../benHTML/electricity.html"> Electricity</a>
+		<a href="../moHTML/photon.html"> Photon/Optical</a>
+		<a href="../ismailaHTML/feedback.html">Feedback</a>
+		<a href="../maxHTML/WebProjectV2.html">About us</a>
+		</div>
+	<div id="title-project">
+	</div>
+
+	<div class="media">
+			
+		<a href="/Users/reckoo/Desktop/WebDesignProject/WebProjectV2.html"><img class="theme-icone"  src="html_Max/img/Theme1.svg" alt="T1"></a>
+		<a href="/Users/reckoo/Desktop/WebDesignProject/Theme2.html"><img class="theme-icone"  src="html_Max/img/Theme2.svg" alt="T2"></a>
+		<a href="#"><img class="theme-icone"  src="html_Max/img/Theme3.svg" alt="T3"></a>
+	</div>
+	</nav>
+
+
+
+<div class="grid-container">
+  <div class="item-a">
+  <p><font size="10" color="#A48404">
+	 The World of Electricity </font></p>
+	</div>
+ 
+
+	<div class="item-c">
+<img class="modImg" src="GreekFlag.png" alt="Thunderbolt">
+	<span id="elecText">The Origin of Electricity. Electricity is a kind of energy that can only be valued by the effects it gives. It is a fundamental part of nature and it is one of the commonly used forms of energy. This word comes from the Greek word elektron which means amber.
+	  <a href="url">http://www.hydroelectricite.ca/en/the-genesis-of-electricity.php</a></span>	
+</div>
+	
+  <div class="item-d">
+	<img class="modImg" src="Thunderbolt.png" alt="Thunderbolt">
+	  <img class="modImg" src="Thunderbolt.png" alt="Thunderbolt">
+	  <img class="modImg" src="Thunderbolt.png" alt="Thunderbolt">
+	</div>
+  <div class="item-e">
+	<img class="modImg" src="Hexagons.png" alt="Hexagon">
+	<span>Tesla:Electric Pioneers:
+ 	<a href="url">https://www.youtube.com/watch?v=iEJNJ0rFSe8</a></span>
+	</div>
+  <div class="item-f">
+	<img class="modImg" src="Half Sun.jpeg" alt="HalfSun">
+  	Natural Electrics:
+	  <a href="url"> https://blog.nationalgeographic.org/2014/06/26/the-shocking-truth-about-electric-animals/</a>
+	</div>
+  <div class="item-g">
+	<img class="modImg" src="Lightbulb.png" alt="Lightbulb">Alternative Producers:<a href="url">http://www.altenergy.org/</a></div>
+  <div class="item-h">
+	<img class="modImg" src="Car.png" alt="Car" >Electric Travel:
+	  <a href="url">https://www.tesla.com/en_GB/</a></div>
+  <div class="item-i">
+	  <img class="modImg" src="Battery.png" alt="Battery" >
+	  Now thats a Battery!
+	  <a href="url">https://www.digitaltrends.com/cool-tech/billionaire-aims-to-build-worlds-biggest-battery/</a> </div>
+  <div class="item-j">
+	  <img class="modImg" src="Thunderbolt in blue circle.png" alt="Lightblue">New Way Ahead:<a href="url">https://www.weforum.org/reports/the-future-of-electricity-new-technologies-transforming-the-grid-edge</a></div>
+	
+  <div class="item-k"></div>
+  <!--<div class="grid-item12">12</div>
+  <div class="grid-item13">13</div>
+  <div class="grid-item14">14</div>
+  <div class="grid-item15">15</div>
+  <div class="grid-item16">16</div>-->
+</div>
+
+
+
+
+</body>
+<footer>
+
+<p>Created by: Ben Taylor</p>
+
+<p> <a href="CV.html">View My CV </a> </p>
+
+<p> <a href="../moHTML/sitemap.html">Sitemap </a></p>		
+
+</footer>
+</html>
+
+
+=========================================Style css for Electricity==============================================================
+
+
+/**This css file is responsible for formatting things that are common to all pages. Eg footer, navigation bar, links**/
+
+body{
+	
+		--colorOne:#f3efe0;
+	--colorTwo: #394053;
+	--colorThree: #7cae7a;
+	--colorFour: #4E4A59;
+	--colorFive: #839073;
+}
+
+/* -------------------------------------Navigation bar starts------------------------------------------------------------------- */
+
+/* Add a black background colour to the navigation  bar*/
+nav {
+	display: grid;
+	grid-template-columns: 52.5% 25% 22.5%;
+	grid-template-rows: auto;
+	z-index: 1;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+.Logo{
+	z-index: 2;
+	position: fixed;
+	height: 90px;
+	width: 90px;
+	top: 0;
+	margin-left: 55%;
+	border-radius: 50px;
+	background-image: url(../html/maxHTML/WebDesignProject/html_Max/img/Nightsky.gif);
+	background-size: 80px;
+	border: 5px solid var(--colorOne);
+
+}
+
+#Logo-animation{
+	transition: 0.3s;
+}
+
+#Logo-animation:hover{
+	transform: rotateZ(45deg);
+}
+
+.item {
+	grid-column: 1/2;
+	grid-row: auto;
+	display: inline-block;
+}
+
+.item a {
+	transition: 0.3s;
+	padding: 10px 15px;
+}
+.item a:hover {
+	padding-bottom: 30px;
+  background: var(--colorThree);
+  color: var(--colorOne);
+}
+.media {
+	grid-column: 3/4;
+	grid-row: auto;
+	display: inline-block;
+	padding: 10px 15px;
+}
+
+.title-project {
+	grid-column: 2/3;
+	grid-row: auto;
+	text-align: center;
+}
+
+.menu {
+	
+	
+  overflow: hidden;
+  background-color: var(--colorTwo);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  color: var(--colorOne);
+	margin: 0 0 2% 0;
+}
+
+.menu a {
+  float: left;
+  display: block-inline;
+  text-align: center;
+  text-decoration: none;
+	color: var(--colorOne);
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------Effect for news links------------------------------------------------------------ */
+a {
+	
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.row a:hover{
+	
+	text-decoration: underline;
+	color: blue;
+	
+	
+}
+
+
+a:hover{
+	
+	text-decoration: underline;
+	color: blue;
+	
+	
+}
+.row h3{
+	
+	color: #394053;
+	font-family: sans-serif;
+}
+
+
+
+
+#anchor{
+	
+  margin-left: 329px;
+}
+
+
+/* -------------------------------------First row of each column to the left------------------------------------------------------------------- */
+
+/* The first column of all rows must have a margin of zero. This will push them to left of our  */
+
+.seven:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.eight:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.nine:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.ten:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.eleven:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.five:first-child{ 
+	
+	margin-left: 0;
+}
+
+.four:first-child{ 
+	
+	margin-left: 0; 
+}
+.three:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.two:first-child{ 
+	
+	margin-left: 0; 
+	
+}
+
+.one:first-child{ 
+	
+	margin-left: 0; 
+}
+
+.six:first-child{ 
+	
+	margin-left: 0; 
+}
+
+/* -------------------------------------End of first columns------------------------------------------------------------------- */
+
+
+/* -------------------------------------Image size for different grid sizes---------------------------------------------------- */
+
+
+.six img{
+	
+	height: 200px;
+	width:100%;
+	border-style:solid;
+	border-color: #394053;
+  	background: url(image1.jpg) no-repeat center center fixed; 
+  	
+}
+
+.three img{
+	
+	height: 200px;
+	width:98%;
+	border-style:solid;
+	border-color: #394053;
+  	background: url(image1.jpg) no-repeat center center fixed; 
+  	
+}
+
+.largeHeading{
+	
+	text-align: center;
+	color: #394053;
+	font-family: sans-serif;
+	
+}
+
+#hrTop{
+	
+	margin-top: 125px;
+}
+
+/* -------------------------------------Determination of grid sizes------------------------------------------------------------------- */
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+.eight {
+	width: 66%;
+	float: left;
+	margin-left: 2%;
+}
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+.six {
+	width: 48.5%; /* This div spans six columns (the entire row)*/
+	float: left;
+	margin-left: 2%;
+}
+.five {
+	width: 40.5%; /* This div spans five columns */
+	margin-left: 2%;
+	float:left;
+}
+.four {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+.three {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+
+}
+.one {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+
+
+header {
+	
+	height: 73px;
+	background-color: #d13328;
+}
+
+/* -------------------------------------Footer starts------------------------------------------------------------------- */
+
+footer {
+	
+	
+	height: 100px;
+	background-color: #394053;
+	font-size: 12px;
+	text-align:  center;
+	bottom: 0;
+	width: 100%;
+	max-width: 1000px;
+    margin: auto;
+	color: white;
+	padding-top: 20px;
+}
+
+footer a:hover{
+	
+	text-decoration: underline;
+	color: #7cae7a;
+	
+}
+
+footer a:visited{
+	color: #f3efe0;
+}
+
+
+
+/* -------------------------------------Container starts------------------------------------------------------------------- */
+
+/* This is the div that will be used to hold all contents of the site */
+.container {
+	
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto; 
+	max-width: 1000px;
+	width: 100%;
+}
+
+
+
+ 
+
+
+
