@@ -9,6 +9,7 @@
 	margin-right: auto;
 	margin-left: auto; 
 	width: 1000px;
+	margin-top:25px; 
 	
 }
 
@@ -30,23 +31,14 @@
 	"leftContent";
 	
 	grid-gap:5px;
-	height:490px;
-	
+	height:520px;
+	margin-bottom: 10px;
 }
 
 
 /* ---------------------------------------------------Form----------------------------------------------------------------- */
 
-.formContent{
-	
-	grid-area:leftContent;
-	background-color: #ff8080;
-	margin: 15px;
-	margin-right: 5px;
-	width: 972px;
 
-	
-}
 
 /* The form */
 .container{
@@ -62,9 +54,12 @@
     border-left-style: solid;
     border-bottom-style: solid;
     
-    border-color: #ff0080;
+    border-color: #394053;
     border-width: 5px;
     width: 950px;
+	margin-top: 15px;
+	margin-left: 15px;
+	
 
 }
 
@@ -86,21 +81,23 @@ input[type=text], input[type=email], select, textarea{
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
 	
-    background-color: #ff0080;
+    background-color: #394053;
     color: white;
     cursor: pointer;
     padding-right: 50px;
     margin-left: 153px;
     padding: 12px 20px;
-    border: none;
-    background-color: #ff0080;
+   
+  
     color: white;
     cursor: pointer;
     padding-left: 50px;
     border-radius: 4px;
-    cursor: pointer;
+   
     padding-right: 50px;
     margin-left: 400px;
+	
+	
 }
 
 
